@@ -18,7 +18,7 @@ const Navbar = () => {
 
       {/* menue */}
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex text-xl">
         <li className="hover:text-[#3faec1] hover:scale-105">
           <Link to="hero" smooth={true} duration={500}>
             Home
