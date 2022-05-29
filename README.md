@@ -9,3 +9,10 @@ solution for the problem at hand. What could your team accomplish
 with a developer at your side?
 
 Check out my [portfolio](https://matt-teixeira-portfolio.netlify.app/)!
+## Screenshots
+
+![Project Image](./src/assets/ss-1.png)
+![Project Image](./src/assets/ss-2.png)
+![Project Image](./src/assets/ss-3.png)
+![Project Image](./src/assets/ss-4.png)
+![Project Image](./src/assets/ss-5.png)
