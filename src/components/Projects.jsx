@@ -29,7 +29,7 @@ const Projects = () => {
             {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wide">
-                Full-Satck Application
+                Full-Stack Application
               </span>
               <p>
                 Waste stream tracking application currently used in production.{" "}
