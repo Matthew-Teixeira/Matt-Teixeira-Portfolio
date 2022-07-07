@@ -5,6 +5,7 @@ import SMT from "../assets/SmashMyTrash.png";
 import Movies from "../assets/React-Movies-API.png";
 import Weather from "../assets/weather-dash.png";
 import PixelArt from "../assets/pixel-art.png";
+import Truck from "../assets/truck-it-up.png";
 
 const Projects = () => {
   return (
@@ -209,6 +210,41 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          {/* Grid */}
+          <div
+            style={{ backgroundImage: `url(${Truck})` }}
+            className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div sm:col-span-2 lg:col-span-3"
+          >
+            {/* Hover */}
+            <div className="opacity-0 group-hover:opacity-100 text-center">
+              <span className="text-2xl font-bold text-white tracking-wide">
+              React JS Application - PWA
+              </span>
+              <p>
+              Manage your fleet scheduling with our project management application. 
+              </p>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://peaceful-plains-64054.herokuapp.com/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/willjduncan/trucked-up"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
