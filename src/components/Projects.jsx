@@ -33,11 +33,11 @@ const Projects = () => {
                 Full-Stack Application
               </span>
               <p>
-                Waste stream tracking application currently used in production.{" "}
+              Contaminated ground water volumetric waste stream tracking.{" "}
               </p>
               <div className="pt-8 text-center">
                 <a
-                  href="https://rocky-anchorage-78391.herokuapp.com/"
+                  href="https://volumetric-tracking-b5a1cb277229.herokuapp.com/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -158,7 +158,7 @@ const Projects = () => {
               </p>
               <div className="pt-8 text-center">
                 <a
-                  href="https://apollosolo.github.io/Pixel-Art-2.0/"
+                  href="https://matthew-teixeira.github.io/Pixel-Art-2.0/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
