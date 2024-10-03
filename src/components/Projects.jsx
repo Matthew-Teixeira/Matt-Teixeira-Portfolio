@@ -33,7 +33,7 @@ const Projects = () => {
                 Full-Stack Application
               </span>
               <p>
-              Contaminated ground water volumetric waste stream tracking.{" "}
+                Contaminated ground water volumetric waste stream tracking.{" "}
               </p>
               <div className="pt-8 text-center">
                 <a
@@ -72,7 +72,10 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ApolloSolo/Coin-Vault" target="_blank">
+                <a
+                  href="https://github.com/ApolloSolo/Coin-Vault"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -219,10 +222,11 @@ const Projects = () => {
             {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wide">
-              React JS Application - PWA
+                React JS Application - PWA
               </span>
               <p>
-              Manage your fleet scheduling with our project management application. 
+                Manage your fleet scheduling with our project management
+                application.
               </p>
               <div className="pt-8 text-center">
                 <a
@@ -244,7 +248,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
