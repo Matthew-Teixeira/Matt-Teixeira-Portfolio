@@ -6,6 +6,8 @@ import Movies from "../assets/React-Movies-API.png";
 import Weather from "../assets/weather-dash.png";
 import PixelArt from "../assets/pixel-art.png";
 import Truck from "../assets/truck-it-up.png";
+import Node_Img from "../assets/Node.jpg";
+import Rust from "../assets/Rust.png";
 
 const Projects = () => {
   return (
@@ -57,23 +59,18 @@ const Projects = () => {
           </div>
           {/* Grid */}
           <div
-            style={{ backgroundImage: `url(${CoinVault})` }}
+            style={{ backgroundImage: `url(${Node_Img})` }}
             className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
           >
             {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wide">
-                Node JS Application
+                Node Backend Application
               </span>
-              <p>A collaborative cryptocurrency trading simulator.</p>
+              <p>Read, parse, and persist log data from remote sources.</p>
               <div className="pt-8 text-center">
-                <a href="https://the-coin-vault.herokuapp.com/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
                 <a
-                  href="https://github.com/ApolloSolo/Coin-Vault"
+                  href="https://github.com/Matt-Teixeira/hhm_rpp"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -85,26 +82,21 @@ const Projects = () => {
           </div>
           {/* Grid */}
           <div
-            style={{ backgroundImage: `url(${SMT})` }}
+            style={{ backgroundImage: `url(${Node_Img})` }}
             className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
           >
             {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wide">
-                Vanilla JS Application
+                Node Backend Application
               </span>
-              <p>Custom pricing calculator for a local small business.</p>
+              <p>
+                Access and pull data from remote systems, VPN tunnel resets, and
+                job rerun queues.
+              </p>
               <div className="pt-8 text-center">
                 <a
-                  href="https://apollosolo.github.io/SMT-Pricing-Calculator/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/ApolloSolo/SMT-Pricing-Calculator"
+                  href="https://github.com/Matt-Teixeira/hhm_data_acquisition"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -114,37 +106,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* Grid */}
-          <div
-            style={{ backgroundImage: `url(${Movies})` }}
-            className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
-          >
-            {/* Hover */}
-            <div className="opacity-0 group-hover:opacity-100 text-center">
-              <span className="text-2xl font-bold text-white tracking-wide">
-                React JS Application
-              </span>
-              <p>Search movies and show utilizing a 3rd party API.</p>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://react-movie-demos.netlify.app/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/ApolloSolo/React-Movies"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           {/* Grid */}
           <div
             style={{ backgroundImage: `url(${PixelArt})` }}
@@ -181,29 +143,41 @@ const Projects = () => {
           </div>
           {/* Grid */}
           <div
-            style={{ backgroundImage: `url(${Weather})` }}
+            style={{ backgroundImage: `url(${Rust})` }}
             className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
           >
             {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wide">
-                Vanilla JS Application
+                Rust Application
               </span>
-              <p>
-                Search for weather data near you or anywhere within the United
-                States.
-              </p>
+              <p>Cammand line RPG built with Rust</p>
               <div className="pt-8 text-center">
                 <a
-                  href="https://apollosolo.github.io/Weather-Dashboard/"
+                  href="https://github.com/Matthew-Teixeira/command_rpg"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Code
                   </button>
                 </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid */}
+          <div
+            style={{ backgroundImage: `url(${Rust})` }}
+            className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
+          >
+            {/* Hover */}
+            <div className="opacity-0 group-hover:opacity-100 text-center">
+              <span className="text-2xl font-bold text-white tracking-wide">
+                Rust Application
+              </span>
+              <p>Serialize and Deserialize JSON. Insert into PostgreSQL db.</p>
+              <div className="pt-8 text-center">
                 <a
-                  href="https://github.com/ApolloSolo/Weather-Dashboard"
+                  href="https://github.com/Matthew-Teixeira/serialize_deserialize_json"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -215,11 +189,11 @@ const Projects = () => {
           </div>
 
           {/* Grid */}
-          <div
+          {/*           <div
             style={{ backgroundImage: `url(${Truck})` }}
             className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div sm:col-span-2 lg:col-span-3"
           >
-            {/* Hover */}
+
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wide">
                 React JS Application - PWA
@@ -247,7 +221,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

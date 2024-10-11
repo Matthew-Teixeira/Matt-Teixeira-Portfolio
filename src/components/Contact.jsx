@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-[#3faec1] text-gray-300">Contact</p>
           <p className="text-gray-300 pt-4 text-2xl">Submit the form below or shoot me an email at:</p>
-          <a className="text-[#3faec1] block text-xl text-center hover:scale-105 duration-200" href="appsolo.tech@gmail.com">appsolo.tech@gmail.com</a>
+          <a className="text-[#3faec1] block text-xl text-center hover:scale-105 duration-200" href="matt.teixeira@protonmail.com">matt.teixeira@protonmail.com</a>
 
         </div>
         <input className="bg-[#ccd6f6] p-2 hover:scale-105 duration-300" type="text" placeholder="Name" name="name" required/>
