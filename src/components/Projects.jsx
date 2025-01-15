@@ -5,6 +5,7 @@ import SMT from "../assets/SmashMyTrash.png";
 import Movies from "../assets/React-Movies-API.png";
 import Weather from "../assets/weather-dash.png";
 import PixelArt from "../assets/pixel-art.png";
+import Map_Quest from "../assets/Map_Quests.png"
 import Truck from "../assets/truck-it-up.png";
 import Node_Img from "../assets/Node.jpg";
 import Rust from "../assets/Rust.png";
@@ -109,21 +110,20 @@ const Projects = () => {
 
           {/* Grid */}
           <div
-            style={{ backgroundImage: `url(${PixelArt})` }}
+            style={{ backgroundImage: `url(${Map_Quest})` }}
             className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
           >
             {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wide">
-                Vanilla JS Application
+                Full-Stack App: Map Quests
               </span>
               <p>
-                Express your artistic self with this relaxing pixel art
-                application.
+                Map and location plotting application. Create maps and plot locations using your mobile device. 
               </p>
               <div className="pt-8 text-center">
                 <a
-                  href="https://matthew-teixeira.github.io/Pixel-Art-2.0/"
+                  href="https://map-quests-10f6783b8d2b.herokuapp.com/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -131,7 +131,7 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/ApolloSolo/Pixel-Art-2.0"
+                  href="https://github.com/Matthew-Teixeira/map-quests"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
